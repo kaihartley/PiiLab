@@ -1,0 +1,12 @@
+# Agent runtime - mirrors app/LabAgent/pyproject.toml (which agentcore deploys from)
+bedrock-agentcore>=1.8.0
+langgraph>=1.0.2
+langchain>=1.0.3
+langchain-aws>=1.0.0
+boto3>=1.35.0
+botocore[crt]>=1.35.0
+opentelemetry-instrumentation-langchain>=0.59.0
+aws-opentelemetry-distro~=0.18.0
+
+# Tests
+pytest>=8.0
